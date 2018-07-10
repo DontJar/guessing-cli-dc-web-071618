@@ -13,7 +13,7 @@ def run_guessing_game
   fleshy_guess = nil
   puts "Guess a number between 1 and 6."
   fleshy_guess = gets.chomp
-    if fleshy_guess = "exit"
+    if fleshy_guess == "exit"
       puts "Goodbye!"
     elsif fleshy_guess.to_i == compy_guess.to_i
       puts "You guessed the correct number!"
