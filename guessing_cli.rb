@@ -15,7 +15,7 @@ def run_guessing_game
   fleshy_guess = gets.chomp
     if fleshy_guess = "exit"
       puts "Goodbye!"
-    elsif fleshy_guess.to_i == compy_guess
+    elsif fleshy_guess.to_i == compy_guess.to_i
       puts "You guessed the correct number!"
     else
       puts "The computer guessed #{compy_guess}."
